@@ -60,14 +60,20 @@ Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TX
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
-
-
-
-
-
-
-
-##dnsenum
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/88819ad9-0754-4566-bcee-8fa17e885c9a)
+filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files. Following searches for pdf file in the domain yahoo.com
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/34c049a9-5d9b-4967-b853-88db117eb807)
+intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/e5985550-3fe6-4262-9e14-51632eeb9fc7)
+inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/92475d4c-17b5-447a-9a5b-93e9f86c3230)
+intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/dbf343b4-db83-4749-b046-53f1b2a8c004)
+link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/f6f9a619-d87a-45dd-b02d-ad55ef02785a)
+cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![image](https://github.com/gowriganeshns/Enumeration/assets/131433133/1a7a0b88-f855-4b04-bcbc-39fdce74abd4)
+### dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
